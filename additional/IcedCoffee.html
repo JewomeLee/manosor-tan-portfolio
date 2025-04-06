@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <style>
+        .form{
+            background-color: #556B2F;
+            padding: 10px;
+            padding-bottom: 10px;
+            margin: 30%;
+            margin-bottom: 0%;
+            margin-top: 5%;
+            border-radius: 10px;
+        }
+        input{
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .background-form{
+            background-color: tan;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        select{
+            padding: 10px;
+            width: 156px;
+            border-radius: 10px;
+        }
+        button{
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+            margin-left: 225px;
+        }
+        button a{
+            text-decoration: none;
+            color: black;
+        }
+        button:hover{
+            background-color: #A9A454;
+        }
+        .background-form form img{
+            width: 200px;
+            height: 200px;
+            display: block;
+            border-radius: 10px;
+            margin-left: 300px;
+        }
+        h1{
+            float: left;
+            margin-top: 90px;
+            margin-left:80px;
+        }
+        body{
+            background-color: bisque;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="form">
+<div class="background-form">
+    <form action="submit">
+        <h1>Iced Coffee</h1>
+        <img src="https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-categories/c/1376x774/cinnamon_spiked_iced_coffee_1376x774.jpg?rev=8433686a838945e5a94476c5ad15f2a7&vd=20221208T230542Z&extension=webp&hash=242AE589BB0E38DC5F7629D9A07B53A4" alt="Iced Coffee">
+        <br>
+        <br>
+        <strong>Please Fill-up below: </strong>
+        <br>
+        <br>
+    <label for="first name"> Customer Name:<br>
+        <input type="text" id="name" name="name" placeholder="First Name" required>
+    </label>
+    <label for="last name">
+        <input type="text" id="name" name="name" placeholder="Last Name" required>
+    </label>
+    <br>
+    <br>
+    <br>
+    <label for="email"> Customer Email:
+        <br>
+        <input type="text" id="email" name="email" placeholder="Email" required>
+    </label>
+    <br>
+    <br>
+    <label for="address"> Customer Address:<br>
+        <input type="text" id="address" name="address" placeholder="Address" required>
+        <br>
+        <br>
+    <label for="number">Telephone Number: <br>
+    <input type="tel" id="number" name="number" placeholder="Tel Number" required>
+    </label> 
+    <br>
+    <br>
+    <label for="quantity"> Quantity: <br>
+    <input type="number" name="quantity" id="quantity" placeholder="Quantity" required>
+    </label>
+    <br>
+    <br>
+    <button><a href="done.html">Order</a></button>
+    </form>
+</div>
+</div>  
+</body> 
+</html>
