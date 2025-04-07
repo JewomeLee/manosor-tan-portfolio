@@ -7,260 +7,208 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
     <title>Menu</title>
     <style>
-         body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url(CoffeeBg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(CoffeeBg.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            text-align: center;
+        }
         header {
-    background-color: #6f4e37;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    gap: 20px;
-    text-align: center;
-}
-
-header img {
-    width: 120px;
-    height: auto;
-    border-radius: 15%;
-    border: 5px solid white;
-}
-
-.header-text {
-    flex: 1;
-}
-
-.header-text h1 {
-    margin: 0px;
-    font-size: 1.3em;
-}
-
-.header-text p {
-    margin: 5px 0 0;
-    font-size: 1em;
-}
-
-nav{ 
-    background-color: #663322; 
-    color: white; 
-    text-align: center; 
-    padding: 10px;
- }
- nav a{ 
-    color: white; 
-    margin: 0 10px; 
-    text-decoration: none; 
-    padding: 5px 10px;
-    border-radius: 5px;
- }
- nav a:hover {
-    transition: 1;
-    box-shadow: gray;
-    background-color: #825c43;
- }
-.search{
-    width: max-content;
-    display: flex;
-    align-items: Center;
-    padding: 14px;
-    border-radius: 28px;
-    background-color: antiquewhite;
-}
-.search-input{
-    background-color: transparent;
-    width: 300px;
-    outline: none;
-    border: none;
-}
-footer{
-    background-color: #6f4e37;
-    color: white;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-}
-        .coffee-item{
+            background-color: #6f4e37;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            gap: 20px;
+        }
+        header img {
+            width: 120px;
+            height: auto;
+            border-radius: 15%;
+            border: 5px solid white;
+        }
+        .header-text {
+            flex: 1;
+        }
+        .header-text h1 {
+            margin: 0px;
+            font-size: 1.3em;
+        }
+        .header-text p {
+            margin: 5px 0 0;
+            font-size: 1em;
+        }
+        nav {
+            background-color: #663322;
+            color: white;
+            text-align: center;
             padding: 10px;
-            background-color:  #b07946;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            transition: 1;
+            box-shadow: gray;
+            background-color: #825c43;
+        }
+        .search {
+            width: max-content;
+            display: flex;
+            align-items: Center;
+            padding: 14px;
+            border-radius: 28px;
+            background-color: antiquewhite;
+        }
+        .search-input {
+            background-color: transparent;
+            width: 300px;
+            outline: none;
+            border: none;
+        }
+        footer {
+            background-color: #6f4e37;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .coffee-item {
+            padding: 10px;
+            background-color: #b07946;
             margin: 10px;
             float: left;
             border-radius: 50px;
             margin-left: 20px;
-            align-items: center;
         }
-        .coffee{
+        .coffee {
             width: 300px;
             height: 325px;
             border-radius: 50px;
-            float: left;
         }
-        h3{
+        h3 {
             text-align: center;
         }
-        form{
+        form {
             text-align: left;
         }
-        
-        button{
+        button {
             padding: 10px;
             background-color: white;
             border-radius: 10px;
             border: 1px solid black;
-            size: 50%;
         }
-        button:hover{
+        button:hover {
             background-color: #A9A454;
         }
-        button a{
+        button a {
             text-decoration: none;
             color: black;
         }
-        .menu-section h1{
+        .menu-section h1 {
             background-color: #6f4e37;
             padding: 10px;
             text-align: center;
             border-radius: 10px;
             color: white;
         }
-        img{
-             width: auto;
-              height: auto;
-              border-radius: 10%;
-              border: 10px solid;
-             border-color: rgb(115, 25, 25);
-             align-items: center;
-             align-self: center;
-}
-h4{
- text-align: center;
- color: white;
- font-size: 2em;
-}
-footer{
-    background-color:#6f4e37 ;
-    color: white;
-    text-align: center;
-}
-
-
+        img {
+            width: auto;
+            height: auto;
+            border-radius: 10%;
+            border: 10px solid;
+            border-color: rgb(115, 25, 25);
+        }
+        h4 {
+            text-align: center;
+            color: white;
+            font-size: 2em;
+        }
+        .menu-container {
+            overflow: auto;
+            padding: 20px;
+        }
     </style>
 </head>
 <body>
-    <Header>
+    <header>
         <img src="Just4YouCafelogo.png" alt="Just4you logo">
-    <div class="Header">
-        <h1>Your favorite café, now just a click away. Welcome to Just 4 You Café!</h1>
-        <p>“Where Every Brew is Made Just 4 You.”</p>
-    </div>
-
-    <!--This area is a search area design only rani siya nga part not functional nga searchbar-->
-    <form action="submit.php" method="get">
-        <div class="search">
-            <span class="search-icon material-symbols-outlined">search</span>
-            <input type="search" name="search" class="search-input" placeholder="Search">
+        <div class="header-text">
+            <h1>Your favorite café, now just a click away. Welcome to Just 4 You Café!</h1>
+            <p>“Where Every Brew is Made Just 4 You.”</p>
         </div>
-    </form>
-    </Header>
-     <nav>
+        <form action="submit.php" method="get">
+            <div class="search">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input type="search" name="search" class="search-input" placeholder="Search">
+            </div>
+        </form>
+    </header>
+
+    <nav>
         <a href="index.html" target="_self">HOME</a>
         <a href="Menu.html" target="_self">MENU</a>
         <a href="blog.html" target="_self">FOUNDERS</a>
         <a href="contactus.html">CONTACT</a>
-     </nav>
-    <div class="menu-section">
-        <h1>MENU</h1>
-        <div class="coffee-item">
-            <img class="coffee" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg" alt="Latte">
-            <h3>Latte</h3>
-            
-            
+    </nav>
 
-            <center><button><a href="Latte.html">Order Now</a></button></center>
+    <div class="menu-container">
+        <div class="menu-section">
+            <h1>MENU</h1>
+            <div class="coffee-item">
+                <img class="coffee" src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Caffe_Latte_at_Pulse_Cafe.jpg" alt="Latte">
+                <h3>Latte</h3>
+                <center><button><a href="Latte.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRWm9qKkP2EkvSnBuwhWD7T8-oRTUNKZFq13dgEowlcT4Kqymc2bv4b0ZzJXv0aT4wR" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <center><button><a href="Cappucino.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mocha_coffee.jpg" alt="Mocha">
+                <h3>Mocha</h3>
+                <center><button><a href="Mocha.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-categories/c/1376x774/cinnamon_spiked_iced_coffee_1376x774.jpg" alt="Iced Coffee">
+                <h3>Iced Coffee</h3>
+                <center><button><a href="IcedCoffee.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Espresso_e8d1f1cd-22fb-4e00-a561-87ac5ac40873_1024x1024.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <center><button><a href="Espresso.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Americano_362d44dc-d7c8-495f-bff4-9cd4682d7d44_1024x1024.jpg" alt="Americano">
+                <h3>Americano</h3>
+                <center><button><a href="Americano.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Black_Coffee_ab2244c7-3ba1-41c2-bf4b-2cac87719df2_1024x1024.jpg" alt="Black Coffee">
+                <h3>Black Coffee</h3>
+                <center><button><a href="BlackCoffee.html">Order Now</a></button></center>
+            </div>
+            <div class="coffee-item">
+                <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Long_Black_e556c58d-75fa-41d5-8616-b5773c6a2570_1024x1024.jpg" alt="Long Black">
+                <h3>Long Black</h3>
+                <center><button><a href="LongBlack.html">Order Now</a></button></center>
+            </div>
         </div>
     </div>
 
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRWm9qKkP2EkvSnBuwhWD7T8-oRTUNKZFq13dgEowlcT4Kqymc2bv4b0ZzJXv0aT4wR" alt="Cappucino">
-            <h3>Cappucino</h3>
-           
+    <div style="clear: both;"></div>
 
-            <center><button><a href="Cappucino.html">Order Now</a></button></center>
-        </div>
-    </div>
-    
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Mocha_coffee.jpg" alt="Mocha">
-            <h3>Mocha</h3>
-           
-
-            <center><button><a href="Mocha.html">Order Now</a></button></center>
-        </div>
-    </div>
-
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-categories/c/1376x774/cinnamon_spiked_iced_coffee_1376x774.jpg?rev=8433686a838945e5a94476c5ad15f2a7&vd=20221208T230542Z&extension=webp&hash=242AE589BB0E38DC5F7629D9A07B53A4" alt="Iced Coffe">
-            <h3>Iced Coffee</h3>
-           
-
-            <center><button><a href="IcedCoffee.html">Order Now</a></button></center>
-        </div>
-    </div>
-
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Espresso_e8d1f1cd-22fb-4e00-a561-87ac5ac40873_1024x1024.jpg?v=1716454926" alt="Espreso">
-            <h3>Espresso</h3>
-           
-
-            <center><button><a href="Espresso.html">Order Now</a></button></center>
-        </div>
-    </div>
-
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Americano_362d44dc-d7c8-495f-bff4-9cd4682d7d44_1024x1024.jpg?v=1716455095" alt="Americano">
-            <h3>Americano</h3>
-           
-
-            <center><button><a href="Americano.html">Order Now</a></button></center>
-        </div>
-    </div>
-
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Black_Coffee_ab2244c7-3ba1-41c2-bf4b-2cac87719df2_1024x1024.jpg?v=1716454648" alt="Black Coffee">
-            <h3>Black Coffee</h3>
-           
-
-            <center><button><a href="BlackCoffee.html">Order Now</a></button></center>
-        </div>
-    </div>
-
-    <div class="menu-section">
-        <div class="coffee-item">
-            <img class="coffee" src="https://cdn.shopify.com/s/files/1/0838/4525/files/Long_Black_e556c58d-75fa-41d5-8616-b5773c6a2570_1024x1024.jpg?v=1716455241" alt="Long Black">
-            <h3>Long Black</h3>
-           
-
-            <center><button><a href="LongBlack.html">Order Now</a></button></center>
-        </div>
-    </div>
-   <br><br>
-  
     <div id="image_container">
-       <h4>RECIPES OF THE COFFEE</h4>
+        <h4 style="background-color: #6f4e37;">RECIPES OF THE COFFEE</h4>
         <img src="JUST4YOUCAFEMENU.png" usemap="#image-map">
         <map name="image-map">
             <area target="_blank" alt="Latte" title="Latte" href="https://www.allrecipes.com/recipe/96629/cafe-latte/" coords="61,398,698,392,694,725,74,723" shape="poly">
@@ -273,10 +221,9 @@ footer{
             <area target="_blank" alt="Long Black" title="Long Black" href="https://cornercoffeestore.com/what-is-a-long-black-coffee/" coords="701,1629,698,1933,1372,1922,1347,1630" shape="poly">
         </map>
     </div>
-    <br><br><br>
 
     <footer>
         <h3>&copy; 2025 All Rights Reserved.</h3>
-     </footer>
+    </footer>
 </body>
 </html>
