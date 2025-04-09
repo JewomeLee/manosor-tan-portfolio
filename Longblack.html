@@ -135,7 +135,80 @@ footer{
     float: left;
     margin-top: 90px;
     margin-left: 100px;
-}   
+}  
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        width: 90px;
+        margin-bottom: 10px;
+    }
+
+    .header-text h1 {
+        font-size: 1em;
+    }
+
+    .header-text p {
+        font-size: 0.9em;
+    }
+
+    .search {
+        width: 90%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .form {
+        margin: 5%;
+        padding: 10px;
+    }
+
+    .background-form form img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .form h1 {
+        float: none;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    input, select, button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    input[type="submit"] {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
     </style>
 </head>
 <body>

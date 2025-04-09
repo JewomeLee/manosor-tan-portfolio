@@ -139,6 +139,79 @@ summary:hover{
    transform: scale(1);
    background-color: orange;
 }
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    .header-text h1 {
+        font-size: 1.2em;
+    }
+
+    .header-text p {
+        font-size: 0.95em;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    .search {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .search-input {
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    section, aside {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    summary {
+        font-size: 0.95em;
+    }
+
+    footer {
+        font-size: 0.9em;
+    }
+}
 </style>
 <body>
     <Header>

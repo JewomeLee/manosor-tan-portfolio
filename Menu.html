@@ -135,6 +135,110 @@
             overflow: auto;
             padding: 20px;
         }
+        @media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  header img {
+    width: 100px;
+  }
+
+  .header-text h1 {
+    font-size: 1.2em;
+  }
+
+  .search {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  nav {
+    display: block;
+    text-align: left;
+    padding: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .coffee-item {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .coffee {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    border: 10px solid rgb(115, 25, 25);
+  }
+
+  footer h3 {
+    font-size: 0.8em;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  h4 {
+    font-size: 1.5em;
+  }
+
+  #image_container img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-text h1 {
+    font-size: 1.1em;
+  }
+
+  .header-text p {
+    font-size: 0.9em;
+  }
+
+  .coffee-item {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .coffee {
+    width: 100%;
+    height: auto;
+  }
+
+  nav a {
+    font-size: 0.9em;
+    padding: 5px;
+  }
+
+  footer h3 {
+    font-size: 0.7em;
+  }
+}
+
+        
     </style>
 </head>
 <body>
